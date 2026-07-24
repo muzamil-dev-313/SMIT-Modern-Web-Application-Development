@@ -1,0 +1,132 @@
+<html>
+
+<head>
+    <title>Table & Form</title>
+    <style>
+        td {
+            padding: 15px 30px 15px 30px;
+        }
+
+        th {
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Seminar Schedule</h1>
+    <p>This layout demonstrates a structured weekly timetable for an advanced seminar program. It tracks daily session
+        timings, specific subject topics, and extra weekend practical classes.</p>
+    <table border="1" cellspacing="0">
+        <tr>
+            <th rowspan="3">Day</th>
+            <th colspan="3">Seminar</th>
+        </tr>
+        <tr>
+
+            <th colspan="2">Schedule</th>
+            <th rowspan="2">Topic</th>
+        </tr>
+        <tr>
+
+            <th>Start</th>
+            <th>End</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Monday</td>
+            <td rowspan="2">8:00 AM</td>
+            <td rowspan="2">5:00 PM</td>
+            <td>Introduction</td>
+        </tr>
+        <tr>
+            <td align="center">Uses</td>
+        </tr>
+        <tr>
+            <td rowspan="4">Tuesday</td>
+            <td>8:00 Am</td>
+            <td>11:00 PM</td>
+            <td align="center">----</td>
+        </tr>
+        <tr>
+            <td>11:00 AM</td>
+            <td>2:00 PM</td>
+            <td align="center">Learn</td>
+        </tr>
+        <tr>
+            <td>2:00 PM</td>
+            <td>8:00 PM</td>
+            <td rowspan="2" align="center">----</td>
+        </tr>
+        <tr>
+            <td>10:00 AM</td>
+            <td>1:00 PM</td>
+        </tr>
+        <tr>
+            <td>Wed-Fri</td>
+            <td colspan="2" align="center">Full Day</td>
+            <td align="center">Practical</td>
+        </tr>
+        <tr>
+            <td>Sat - Sun</td>
+            <td colspan="2" align="center">11:00 AM - 5:00 PM</td>
+            <td>Extra Class</td>
+        </tr>
+    </table>
+
+    <h2>How to Use This Schedule</h2>
+    <h3>Steps to follow the schedule</h3>
+    <ol>
+        <li>Check the specific day on the left column.</li>
+        <li>Verify the exact start and end timings.</li>
+        <li>Review the assigned topic before attending.</li>
+        <li>Note the weekend extra class slots.</li>
+    </ol>
+    <h3>Seminar Features</h3>
+    <ul>
+        <li>Multi-row spanning (rowspan) for daily slots.</li>
+        <li>Comprehensive timing tracking (colspan).</li>
+        <li>Detailed topic breakdowns.</li>
+        <li>Dedicated weekend practical sessions.</li>
+    </ul>
+
+    <h2>Seminar Registration Form</h2>
+
+    <form action="">
+        <label>First Name:</label>
+        <input type="text" required placeholder="Type your first name">
+        <br>
+        <br>
+        <label>Last Name:</label>
+        <input type="text" required placeholder="Type your first name">
+        <br>
+        <br>
+        <label for="">Email:</label>
+        <input type="email" required placeholder="Type your email"> <br> <br>
+        <label for="">Phone:</label>
+        <input type="tel" placeholder="Enter your phone number"> <br> <br>
+        <label for="">Password:</label>
+        <input type="password" required placeholder="Enter your password">
+        <p>
+            <label for="">Preferred Seminar Day:</label> <br>
+            <select name="" id="" style="cursor: pointer;">
+                <option value="">Monday (Intro & Uses)</option>
+                <option value="">Tuesday (Deep Dive & Learn)</option>
+                <option value="">Wed - Fri (Practical)</option>
+                <option value="">Sat - Sun (Extra)</option>
+            </select>
+        </p>
+        <p>
+            <label for="">Attendance Type:</label><br>
+            <input type="radio" id="online" name="Attendance" checked style="cursor: pointer;">
+            <label for="online" style="cursor: pointer;">Online</label><br>
+            <!-- ------------------------------------------------------ -->
+            <input type="radio" id="in-person" name="Attendance" style="cursor: pointer;">
+            <label for="in-person" style="cursor: pointer;">In-person</label>
+        </p>
+        <textarea name="" id="" placeholder="For any query comment here."></textarea>
+        <br><br>
+        <input type="submit" value="Register for Seminar">
+    </form>
+</body>
+
+</html>

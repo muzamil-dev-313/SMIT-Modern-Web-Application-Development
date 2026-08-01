@@ -1,0 +1,27 @@
+body {
+    font-family: 'Times New Roman';
+}
+
+.dark {
+    font-weight: 700;
+}
+
+th, td {
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(221, 129, 8);
+}
+
+table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-collapse: collapse; */
+}
+
+tr, th, td {
+    border: 1px solid black;
+}

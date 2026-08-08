@@ -1,0 +1,39 @@
+h1 {
+    color: green;
+    border: 1px solid black;
+}
+
+h2 {
+    display: inline;
+    background-color: lightblue;
+}
+
+p {
+    color: rgb(225, 233, 230);
+    background-color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+
+a {
+    background-color: aqua;
+}
+
+
+span {
+    background-color: brown;
+    color: white;
+}
+
+img {
+    display: block;
+    margin-top: 10px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.none {
+    display: none;
+}

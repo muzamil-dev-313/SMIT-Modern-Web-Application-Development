@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px gray;
+}
+
+.font-demo {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.spacing {
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+
+.line-height {
+    line-height: 30px;
+}
+
+.shadow {
+    text-shadow: 3px 3px 6px gray;
+}
+
+.box {
+    width: 80%;
+    border: 2px solid black;
+    padding: 20px;
+}
+
+h2 {
+    font-style: italic;
+}
+
+.box > div {
+    background-color: antiquewhite;
+    width: 80%;
+    border: 1px solid black;
+}
+
+/* Below the codes if you write like this, The child becomes wider than its parent. */
+/* .box {
+    width: 80vw;
+    border: 2px solid black;
+    padding: 20px;
+}
+.box > div {
+    background-color: antiquewhite;
+    width: 90vw;
+    border: 1px solid black;
+} */
+
+/* Example:
+Parent = 80% of screen
+Child = 90% of screen */
+
+
+/* 
+❌ Child overflows outside the parent
+❌ Horizontal scrollbar may appear 
+*/
